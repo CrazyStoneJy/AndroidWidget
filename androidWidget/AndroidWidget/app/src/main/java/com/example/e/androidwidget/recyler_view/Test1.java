@@ -1,4 +1,4 @@
-package com.example.e.androidwidget;
+package com.example.e.androidwidget.recyler_view;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -6,6 +6,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.widget.TextView;
 
+import com.example.e.androidwidget.R;
 import com.example.quickdev.CommonRecylerViewAdapter;
 import com.example.quickdev.CommonRecylerViewHolder;
 

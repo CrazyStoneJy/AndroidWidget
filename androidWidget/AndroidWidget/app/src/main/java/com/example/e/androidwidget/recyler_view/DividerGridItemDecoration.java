@@ -1,4 +1,4 @@
-package com.example.e.androidwidget;
+package com.example.e.androidwidget.recyler_view;
 
 import android.content.Context;
 import android.content.res.TypedArray;

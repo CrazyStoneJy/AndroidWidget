@@ -1,4 +1,4 @@
-package com.example.e.androidwidget;
+package com.example.e.androidwidget.recyler_view;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -12,6 +12,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.e.androidwidget.R;
 import com.example.quickdev.OnRecylerViewItemClickLisenter;
 
 import java.util.ArrayList;
