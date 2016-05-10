@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">AndroidWidget</string>
     <string name="action_settings">Settings</string>
+    <array name="viewpager_str_array">
+        <item>alpha</item>
+        <item>rotationY</item>
+        <item>Scale</item>
+        <item>alpha and Scale</item>
+    </array>
 </resources>

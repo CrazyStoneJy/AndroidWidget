@@ -1,0 +1,6 @@
+用viewpager实现画廊的效果，
+cautious:
+1:将viewpager的父容器的clipchildren设置为false
+2:给viewpager设置pageTransform .setPageTransform(true,new CustomPageTransform());
+3:自己实现ViewPager.PageTransformer接口
+此外需要注意的是：该方法的实现用的属性动画，Android sdk>=11才行,想要兼容的话用nineoldAnimation库来实现兼容。

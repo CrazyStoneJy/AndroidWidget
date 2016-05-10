@@ -16,12 +16,11 @@ public abstract class CommonPageTransform implements ViewPager.PageTransformer {
     @TargetApi(Build.VERSION_CODES.HONEYCOMB)
     public void transformPage(View page, float position) {
         if (mPageTransformer != null) mPageTransformer.transformPage(page, position);
-        pageTransformer(page, position);
+        pageTransform(page, position);
     }
 
-    protected void pageTransformer(View page, float position) {
-
-    }
+    @TargetApi(Build.VERSION_CODES.HONEYCOMB)
+    protected abstract void pageTransform(View page, float position);
 
 
 }

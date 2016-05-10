@@ -13,7 +13,6 @@ import com.example.e.androidwidget.R;
 public class CustomViewPager extends ViewPager {
 
     private Context mContext;
-    private int[] img_array={R.mipmap.img1,R.mipmap.img2,R.mipmap.img3,R.mipmap.img4,R.mipmap.img5,R.mipmap.img6,R.mipmap.img7,R.mipmap.img8};
 
     public CustomViewPager(Context context) {
         super(context);
