@@ -7,4 +7,10 @@
         <item>Scale</item>
         <item>alpha and Scale</item>
     </array>
+    <array name="flowlayout_tab">
+        <item>tab1</item>
+        <item>tab2</item>
+        <item>tab3</item>
+        <item>tab4</item>
+    </array>
 </resources>
