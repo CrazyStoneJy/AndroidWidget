@@ -1,7 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:background="@android:color/holo_red_dark"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
+    <com.example.e.androidwidget.flowlayout.customviewgroup.FlowLayout
+        android:id="@+id/flowlayout_test1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            style="@style/text_flag_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello world"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello world"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello world"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello world"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello world"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello world"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </com.example.e.androidwidget.flowlayout.customviewgroup.FlowLayout>
 </LinearLayout>
